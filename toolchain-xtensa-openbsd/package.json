@@ -1,0 +1,21 @@
+{
+  "name": "toolchain-xtensa",
+  "version": "1.50200.0",
+  "description": "GCC Toolchain for Xtensa processor",
+  "keywords": [
+    "build tools",
+    "compiler",
+    "assembler",
+    "linker",
+    "preprocessor",
+    "esp8266"
+  ],
+  "license": "GPL-2.0-or-later",
+  "system": [
+    "SYSTEM_TEMPLATE"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcmvbkbc/gcc-xtensa"
+  }
+}
