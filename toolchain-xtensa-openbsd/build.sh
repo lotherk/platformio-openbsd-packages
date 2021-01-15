@@ -2,10 +2,6 @@
 
 MACHINE=$(uname -m)
 
-if [ "${MACHINE}" = "aarch64" ]; then
-	MACHINE="amd64"
-fi
-
 rm -rf pkg
 mkdir pkg
 cp package.json pkg/

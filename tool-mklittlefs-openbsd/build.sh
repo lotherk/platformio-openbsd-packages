@@ -3,9 +3,6 @@ set -e
 
 MACHINE=$(uname -m)
 
-if [ "${MACHINE}" = "aarch64" ]; then
-	MACHINE="arm64"
-fi
 rm -rf pkg build
 mkdir pkg build
 (
