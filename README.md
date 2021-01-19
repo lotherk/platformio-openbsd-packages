@@ -7,6 +7,7 @@ Little helper scripts to build OpenBSD packages for platformio (specifically for
 Packages are currently available at [https://konradlother.com/pub/platformio](https://konradlother.com/pub/platformio) and are build on amd64 and arm64 OpenBSD 6.8-RELEASE and work with 6.8-STABLE and -CURRENT.
 
 # required packages
+`git`, `gmake` and `arduino-esp8266` are only required to *build* the packages but not to *run* them.
 
 ```
 # pkg_add git gmake arduino-esp8266 py3-pip
@@ -16,7 +17,7 @@ Packages are currently available at [https://konradlother.com/pub/platformio](ht
 
 ```
 # pip3.8 install platformio
-``` 
+```
 
 # build packages and test
 
